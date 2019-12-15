@@ -26,5 +26,7 @@ namespace BE
         {
             return BankName1 + " " + BranchCity1 + " " + BankAccountNumber1;
         }
+
+        
     }
 }

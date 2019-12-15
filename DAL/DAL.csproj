@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B0DAC0E1-5923-4C00-99E5-EA63010868DB}</ProjectGuid>
+    <ProjectGuid>{C0233D2D-936B-4C9F-922E-9CE6C2A45F94}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>part1</RootNamespace>
-    <AssemblyName>part1</AssemblyName>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,13 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BankAccount.cs" />
-    <Compile Include="Configuration.cs" />
-    <Compile Include="enum.cs" />
-    <Compile Include="GuestRequest.cs" />
-    <Compile Include="Host.cs" />
-    <Compile Include="HostingUnit.cs" />
-    <Compile Include="Order.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Idal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
